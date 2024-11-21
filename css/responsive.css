@@ -1,0 +1,78 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .box-1 a i{
+    padding-left: 55px;
+  }
+  .me .main-btn,
+  .me .fill-btn{
+    padding: 15px 28px;
+    font-size: 12px;
+    margin: 5px;
+  }
+  .card-2{
+    width: 100%;
+  }
+  .contct-icon .contact-btn{
+    margin: 0;
+    padding: 6px 10px;
+  }
+  .man-1 .para-1{
+    font-size: 15px;
+  }
+  .aboutme h1,
+  .aboutme .para-1{
+    text-align: center;
+  }
+  .list-box ul li{
+    font-size: 15px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .box-1 a i{
+    padding-left: 30px;
+  }
+  .bx-box,
+  .aboutme{
+    text-align: center;
+  }
+  .card-2{
+    width: 100%;
+  }
+  .aboutme{
+    margin-top: 20px;
+  }
+  .portfolio_wrapper .small_wrapper{
+    padding: 0;
+  }
+  .list-box ul li{
+    font-size: 13px;
+  }
+}
+/* // small */
+@media (max-width: 366px) {
+  .phone{
+    font-size: 15px ;
+  }
+  .portfolio_wrapper .main-btn{
+    padding: 10px;
+  }
+  .bx-box .main-btn,
+  .me .main-btn,
+  .me .fill-btn{
+    padding: 13px 23px;
+  }
+  .list-box ul li{
+    font-size: 10px;
+  }
+}
+@media (max-width:360px) {
+  .list-box{
+    display: none;
+  }
+  
+}

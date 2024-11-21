@@ -1,0 +1,158 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+   /* custom css */
+   .card {
+      padding: 2.5rem 1.87rem;
+   }
+   /* header */
+   .header_wrapper .navbar-nav .nav-link {
+      font-size: 1rem;
+   }
+   /* top banner */
+   .banner-wrapper .animate-img .aimg1 {
+      left: -2.125rem;
+   }
+   /* about */
+   .about_wrapper .card {
+      width: 100%;
+   }
+   .about_wrapper .about-animate {
+      left: 0.9375rem;
+   }
+
+   /* services */
+   .services_wrapper .card{
+      padding: 1.875rem 1.25rem;
+   }
+   /* footer */
+   .footer_wrapper {
+      padding-bottom: 0;
+   }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+   .wrapper {
+      padding: 3.125rem 0;
+   }
+   h1 {
+      font-size: 2.8125rem;
+      margin-bottom: 0.625rem;
+   }
+   h2 {
+      font-size: 1.875rem;
+   }
+
+   h3 {
+      font-size: 1.5625rem;
+   }
+
+   h4 {
+      font-size: 1.25rem;
+   }
+
+   h5 {
+      font-size: 1.125rem;
+   }
+   p {
+      font-size: 0.875rem;
+      line-height: 1.35rem;
+   }
+   .card {
+      padding: 1.875rem 1rem;
+   }
+   /* navbar */
+   .header_scrolled {
+      height: auto;
+   }
+   .menu-navbar-nav {
+      text-align: center;
+   }
+   .header_wrapper .nav-item .nav-link {
+      margin-top: 0.9375rem;
+   }
+
+   /* banner */
+   .banner-wrapper p {
+      max-width: 100%;
+   }
+   /* about */
+   .about_wrapper .about-clinic:nth-child(1),
+   .about_wrapper .about-clinic:nth-child(2) {
+      margin-bottom: 1.5625rem;
+   }
+   .about_wrapper .about-clinic:nth-child(2),
+   .about_wrapper .about-clinic:nth-child(4) {
+      padding-left: 2.375rem;
+   }
+   /* services */
+   .services_wrapper .card{
+      padding: 1.875rem .875rem;
+   }
+   .services_wrapper .main-btn{
+      width: 80%;
+   }
+   /* blog */
+   .blog_wrapper .card .blog-content{
+      padding: 1.875rem .625rem;
+   }
+   /* footer */
+   .footer_wrapper {
+      padding-bottom: 0;
+   }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+   /* custom scc */
+   .main.btn {
+      font-size: 0.875rem;
+   }
+   h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2.5rem;
+   }
+   h5 {
+      font-size: 1.25rem;
+   }
+   /* services */
+   .services_wrapper .card{
+      text-align: center;
+   }
+   .services_wrapper .main-btn{
+      width: 90%;
+
+   }
+   /* blog  */
+   .blog_wrapper .card .blog-content{
+      margin: 0;
+   }
+   /* footer */
+   .footer_wrapper {
+      padding-bottom: 0;
+   }
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 360.98px) {
+   /* services */
+   .services_wrapper .icon-box{
+      margin-bottom:.9375rem;
+   }
+   /* about */
+   .about_wrapper .about-animate{
+      width: 6.875rem;
+   }
+   .about_wrapper .card{
+      padding: 1.25rem .3125rem ;
+   }
+   .about_wrapper .about-clinic:nth-child(2),
+   .about_wrapper .about-clinic:nth-child(4) {
+      padding-left: .625rem;
+   } 
+   /* footer */
+   .footer_wrapper>div{
+      padding: 0 1.875rem;
+   }
+   /* footer */
+   .footer_wrapper {
+      padding-bottom: 0;
+   }
+}

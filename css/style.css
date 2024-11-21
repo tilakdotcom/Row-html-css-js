@@ -1,0 +1,298 @@
+
+/* 1 General */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&display=swap");
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: var(--text-white);
+}
+
+:root {
+   /* Background Color */
+   --primary-color: #050346;
+   --secondary-color: #090580;
+   --bg-light-blue: #3590ff;
+   --bg-white: #fff;
+
+   /* Text Style */
+   --primary-font: "Roboto Slab", serif;
+   --secondary-font: "Josefin Sans", sans-serif;
+   --primary-text: #fff;
+   --secondary-text: #666;
+   --text-white: #fff;
+   --text-black: #222;
+   --text-light: #ddd;
+}
+body {
+   background-color: var(--primary-color);
+}
+.wrapper {
+   padding: 5rem 0;
+}
+.navbar.header-scrolled {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 999;
+   box-shadow: 0.5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
+   transition: 0.3s ease-in-out;
+   background-color: transparent;
+   -webkit-backdrop-filter: blur(3px);
+   backdrop-filter: blur(3px);
+   padding-top: 5px;
+   padding-bottom: 5px;
+   -webkit-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+.box-1 a {
+   color: var(--text-white);
+}
+.list-box ul li:hover,
+.box-1 a:focus,
+.box-1 a .active,
+.box-1 a:hover {
+   color: var(--bg-light-blue);
+   -webkit-transition: all .2s ease-in;
+   transition: all .2s ease-in;
+}
+.box-1 .nav-item {
+   margin: 0 0.275rem;
+   padding: 0 25px;
+   font-size: 15px;
+   font-weight: 600;
+}
+.main-btn {
+   background-image: linear-gradient(
+      to left,
+      var(--secondary-color),
+      var(--bg-light-blue)
+   );
+   box-shadow: 0px 0px 20px var(--bg-light-blue) ;
+   outline: none;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   padding: 12px 27px;
+   margin-right: 1rem;
+   color: var(--text-white);
+   font-size: 15px;
+   font-weight: 600;
+   -webkit-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+.me a:hover,
+.fill-btn:hover,
+.main-btn:hover {
+   background-image: linear-gradient(
+      to right,
+      var(--secondary-color),
+      var(--bg-light-blue),
+      var(--secondary-color)
+   );
+   color: #050346;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+i:hover{
+   color: orangered;
+   -webkit-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+.box-1 a i {
+   color: var(--bg-light-blue);
+   font-size: 40px;
+   padding-left: 80px;
+}
+button.copy,
+button.copy:focus {
+   border: 0;
+   box-shadow: none;
+   line-height: 2;
+}
+/* home section */
+.bx-box {
+   padding-top: 4rem;
+   padding: 3rem;
+}
+h1 {
+   font-family: "Calistoga", serif;
+   font-weight: 700;
+}
+h2 {
+   font-family: monospace;
+   font-weight: 700;
+}
+.para-1 {
+   margin-top: 15px;
+   font-size: 14px;
+   color: var(--text-light);
+   opacity: 0.5;
+}
+.bx-box .main-btn {
+   margin-top: 20px;
+   padding: 16px 32px;
+}
+/* section about */
+.my-image{
+   border-radius: 50%;
+   box-shadow: 2px 2px 500px var(--bg-light-blue);
+}
+.image {
+   border-radius: 15px;
+   box-shadow: 2px 2px 100px var(--bg-light-blue);
+}
+.me .main-btn {
+   margin-top: 30px;
+   padding: 18px 50px;
+}
+.fill-btn {
+   outline: none;
+   border: 2px solid var(--secondary-color);
+   border-radius: 10px;
+   margin-right: 1rem;
+   color: var(--text-white);
+   font-size: 15px;
+   font-weight: 600;
+   -webkit-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+   margin-top: 30px;
+   padding: 18px 50px;
+}
+/* section portfolio */
+.portfolio_wrapper {
+   padding: 3.5rem;
+}
+h3 {
+   font-weight: 400;
+   color: #3590ff;
+}
+.small_wrapper {
+   padding: 40px 25px;
+}
+.small_wrapper a {
+   text-decoration: none;
+   color: var(--text-white);
+}
+.small_wrapper a:hover {
+   color: var(--bg-light-blue);
+}
+.card {
+   box-shadow: 2px 2px 100px var(--bg-light-blue);
+   background: linear-gradient(var(--primary-color), var(--primary-color))
+         padding-box,
+      linear-gradient(to right, purple, var(--bg-light-blue)) border-box;
+   border-radius: 10px;
+   border: 4px solid transparent;
+   color: var(--text-white);
+   width: 300px;
+   height: auto;
+   padding: 10px;
+   -webkit-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+.js-img:hover,
+.img-html:hover,
+.card:hover{
+   -webkit-transform: translateY(-10px);
+   transform: translateY(-10px);
+}
+.js-img{
+   -webkit-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+.me a{
+   text-decoration: none;
+   color: #fff;
+}
+/* skills section */
+.img-html {
+   max-width: 20%;
+   height: auto;
+   -webkit-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+/* contact sections */
+.contact_wrapper {
+   border-top-right-radius: 90px;
+   border-top-left-radius: 90px;
+   background-image: linear-gradient(
+      to right,
+      rgb(55 0 202 / 66%),
+      var(--bg-light-blue)
+   );
+   padding: 40px 50px;
+   padding-bottom: 0;
+   -webkit-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+.contact-btn {
+   border: 1px solid blue;
+   margin: 10px;
+   background-image: linear-gradient(to right, blue, lightblue);
+   -webkit-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+.contact-btn:hover {
+   background-image: linear-gradient(to right, blue, darkblue);
+   transition: all 1s;
+}
+.card-2 {
+   border: 1px solid blue;
+   width: 70%;
+   border-radius: 15px;
+   height: auto;
+   background-image: linear-gradient(
+      to left,
+      var(--secondary-color),
+      var(--bg-light-blue)
+   );
+   padding: 10px 20px;
+   -webkit-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+.card-2 input {
+   width: 100%;
+   padding: 6px;
+   border-radius: 15px;
+   border: none;
+   outline: none;
+   margin-top: 10px;
+   color: #050346;
+}
+.card-2 textarea {
+   width: 100%;
+   padding: 6px;
+   border-radius: 15px;
+   border: none;
+   outline: none;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color: #050346;
+}
+.card-2 input::placeholder {
+   color: #050346;
+}
+.man a i {
+   font-size: 40px;
+}
+.man a i:hover {
+   color: var(--bg-light-blue);
+   -webkit-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+/* services_wrapper  */
+.services_wrapper {
+   text-align: center;
+}
+/* extra */
+.list-box{
+   padding-top: 10px;
+   margin-top: 20px;
+}
+.list-box ul li{
+   list-style: none;
+   font-weight: 600;
+}
